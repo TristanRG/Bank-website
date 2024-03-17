@@ -1,0 +1,40 @@
+.upper-menu {
+    background-color: #1a1463;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+
+.menu-items a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.menu-separator {
+    width: 2px;
+    height: 24px;
+    background-color: #fff;
+    margin: 0 15px;
+}
+
+.login-register {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.login-register a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}

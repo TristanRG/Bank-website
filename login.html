@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="meniu.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="salvare.js"></script>
+</head>
+<body>
+
+<div class="upper-menu">
+    <div class="menu-items">
+        <a href="main.php">Banca</a>
+        <span class="menu-separator"></span>
+        <a href="cont.php">Cont</a>
+        <span class="menu-separator"></span>
+        <a href="rate.php">Rate</a>
+        <span class="menu-separator"></span>
+        <a href="tranzactii.php">Tranzactii</a>
+    </div>
+    <div class="login-register">
+        <a href="login.html" class="login">Log in</a>
+        <span class="menu-separator"></span>
+        <a href="register.html" class="register">Register</a>
+    </div>
+</div>
+
+<h2>User Login</h2>
+<form action="test.php" method="post">
+    <label for="email">Email:</label>
+    <input type="email" name="email" required><br>
+
+    <label for="parola">Parola:</label>
+    <input type="password" name="parola" required><br>
+
+    <input type="submit" name="login" value="Login">
+</form>
+
+</body>
+</html>

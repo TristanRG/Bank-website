@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-menu {
+    background-color: #1a1463;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0; 
+}
+
+.form-container,
+.info-panel {
+    width: 40%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 10px; 
+}
+
+.form-container {
+    order: 2; 
+}
+
+.info-panel {
+    order: 1; 
+}
+
+h2,
+h3 {
+    color: black;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #1a1463;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #1a1463;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #1a1463;
+}
+
+.info-panel ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-panel li {
+    margin-bottom: 10px;
+}
+
+input[name="sold"] {
+    width: 30%; 
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #1a1463;
+    border-radius: 4px;
+}
+
+label[for="sold"] {
+    display: block;
+    margin-top: 12px;
+}

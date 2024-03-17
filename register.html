@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="meniu.css">
+    <link rel="stylesheet" href="register.css">
+    <script src="salvare.js"></script>
+</head>
+<body>
+
+<div class="upper-menu">
+    <div class="menu-items">
+        <a href="main.php">Banca</a>
+        <span class="menu-separator"></span>
+        <a href="cont.php">Cont</a>
+        <span class="menu-separator"></span>
+        <a href="rate.php">Rate</a>
+        <span class="menu-separator"></span>
+        <a href="tranzactii.php">Tranzactii</a>
+    </div>
+    <div class="login-register">
+        <a href="login.html" class="login">Log in</a>
+        <span class="menu-separator"></span>
+        <a href="register.html" class="register">Register</a>
+    </div>
+</div>
+
+<h2>Inregistrare User</h2>
+<form action="test.php" method="post">
+    <label for="nume">Nume:</label>
+    <input type="text" name="nume" required><br>
+
+    <label for="prenume">Prenume:</label>
+    <input type="text" name="prenume" required><br>
+
+    <label for="parola">Parola:</label>
+    <input type="password" name="parola" required><br>
+
+    <label for="cnp">CNP:</label>
+    <input type="text" name="cnp" required><br>
+
+    <label for="adresa">Adresa:</label>
+    <input type="text" name="adresa" required><br>
+
+    <label for="numar_telefon">Numar Telefon:</label>
+    <input type="text" name="numar_telefon" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" required><br>
+
+    <input type="submit" name="register" value="Register">
+</form>
+</body>
+</html>

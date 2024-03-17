@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.lower-half {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 400px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.box1, .box2, .box3 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1 {
+    background-color: #902bf5;
+    color: whitesmoke;
+}
+
+.box1 h3 {
+    font-size: 20px;
+}
+
+.bonuses {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bonuses p {
+    font-size: 16px;
+}
+
+.box2 {
+    background-color: #1a1463;
+    color: whitesmoke;
+}
+
+.box2 h3 {
+    font-size: 20px;
+}
+
+.box2 .bonuses {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2 .bonuses p {
+    font-size: 16px;
+}
+
+.box3 {
+    background-color: #3a3153;
+    color: whitesmoke;
+}
+
+.box3 h3 {
+    font-size: 20px;
+}
+
+.box3 .bonuses {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box3 .bonuses p {
+    font-size: 16px;
+}
+
+.upper-half {
+    flex: 1;
+    background-color: #902bf5;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slideshow-container {
+    width: 60%;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.mySlides img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 8px;
+}

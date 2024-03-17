@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #1a1463;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.box {
+    width: 350px;
+    height: 200px;
+    border-radius: 200px;
+    margin: 20px;
+    display: inline-block;
+    background-color: #e0e0e0; /* Add a background color for the button-like appearance */
+    padding: 15px; /* Adjust padding for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box1, .box2 {
+    padding: 20px;
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    height: 100px;
+}
+
+.box1 {
+    left: 10%; 
+    background-color: #902bf5;
+    transform: translateY(30%);
+    right: 80%;
+}
+
+.box1 h1 {
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box2 {
+    right: 30%; 
+    background-color: #1a1463;
+    transform: translateY(30%);
+    left: 60%;
+}
+
+.box2 h2 {
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box1 a, .box2 a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+}
