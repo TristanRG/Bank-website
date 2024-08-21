@@ -1,6 +1,6 @@
-#Online Banking System
+# Online Banking System
 
-##Description:
+## Description:
 Welcome to my Online Banking System project! This web-based application that provides users with a secure and realistic banking experience, allowing them to create accounts, manage their finances, and take out loans with customized payment plans. The system is built with PHP for server-side logic, HTML/CSS for the frontend, and JavaScript for client-side interactivity. The database is managed using MySQL, configured through Laragon, ensuring that all user data is securely stored and easily accessible.
 
 ## Project Structure
